@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 900px;
+    background-color: #ffffff;
+}
+
+#info,
+#headline {
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+}
+
+#tip-calculator {
+    background-color: rgb(211, 207, 207);
+    width: 450px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.form-label {
+    font-family: Arial, sans-serif;
+    font-size: 1.3rem;
+}
